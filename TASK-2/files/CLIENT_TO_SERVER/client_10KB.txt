@@ -1,0 +1,283 @@
+AES FILE TRANSFER - CLIENT TO SERVER
+
+Information Assurance and Security - ALM-2
+
+Name: B.V.LAXMANA
+Roll Number: 2420090064
+Section: 11
+
+This is a human-readable plaintext file for the AES file transfer assignment.
+The client encrypts this file using AES-256-CBC and sends the ciphertext to the server.
+The server receives the encrypted data, decrypts it using the same AES key, and displays
+both the ciphertext and the recovered plaintext.
+
+PyCryptodome is used to implement AES encryption and decryption.
+This experiment demonstrates secure client-to-server file transfer.
+
+AES FILE TRANSFER - CLIENT TO SERVER
+
+Information Assurance and Security - ALM-2
+
+Name: B.V.LAXMANA
+Roll Number: 2420090064
+Section: 11
+
+This is a human-readable plaintext file for the AES file transfer assignment.
+The client encrypts this file using AES-256-CBC and sends the ciphertext to the server.
+The server receives the encrypted data, decrypts it using the same AES key, and displays
+both the ciphertext and the recovered plaintext.
+
+PyCryptodome is used to implement AES encryption and decryption.
+This experiment demonstrates secure client-to-server file transfer.
+
+AES FILE TRANSFER - CLIENT TO SERVER
+
+Information Assurance and Security - ALM-2
+
+Name: B.V.LAXMANA
+Roll Number: 2420090064
+Section: 11
+
+This is a human-readable plaintext file for the AES file transfer assignment.
+The client encrypts this file using AES-256-CBC and sends the ciphertext to the server.
+The server receives the encrypted data, decrypts it using the same AES key, and displays
+both the ciphertext and the recovered plaintext.
+
+PyCryptodome is used to implement AES encryption and decryption.
+This experiment demonstrates secure client-to-server file transfer.
+
+AES FILE TRANSFER - CLIENT TO SERVER
+
+Information Assurance and Security - ALM-2
+
+Name: B.V.LAXMANA
+Roll Number: 2420090064
+Section: 11
+
+This is a human-readable plaintext file for the AES file transfer assignment.
+The client encrypts this file using AES-256-CBC and sends the ciphertext to the server.
+The server receives the encrypted data, decrypts it using the same AES key, and displays
+both the ciphertext and the recovered plaintext.
+
+PyCryptodome is used to implement AES encryption and decryption.
+This experiment demonstrates secure client-to-server file transfer.
+
+AES FILE TRANSFER - CLIENT TO SERVER
+
+Information Assurance and Security - ALM-2
+
+Name: B.V.LAXMANA
+Roll Number: 2420090064
+Section: 11
+
+This is a human-readable plaintext file for the AES file transfer assignment.
+The client encrypts this file using AES-256-CBC and sends the ciphertext to the server.
+The server receives the encrypted data, decrypts it using the same AES key, and displays
+both the ciphertext and the recovered plaintext.
+
+PyCryptodome is used to implement AES encryption and decryption.
+This experiment demonstrates secure client-to-server file transfer.
+
+AES FILE TRANSFER - CLIENT TO SERVER
+
+Information Assurance and Security - ALM-2
+
+Name: B.V.LAXMANA
+Roll Number: 2420090064
+Section: 11
+
+This is a human-readable plaintext file for the AES file transfer assignment.
+The client encrypts this file using AES-256-CBC and sends the ciphertext to the server.
+The server receives the encrypted data, decrypts it using the same AES key, and displays
+both the ciphertext and the recovered plaintext.
+
+PyCryptodome is used to implement AES encryption and decryption.
+This experiment demonstrates secure client-to-server file transfer.
+
+AES FILE TRANSFER - CLIENT TO SERVER
+
+Information Assurance and Security - ALM-2
+
+Name: B.V.LAXMANA
+Roll Number: 2420090064
+Section: 11
+
+This is a human-readable plaintext file for the AES file transfer assignment.
+The client encrypts this file using AES-256-CBC and sends the ciphertext to the server.
+The server receives the encrypted data, decrypts it using the same AES key, and displays
+both the ciphertext and the recovered plaintext.
+
+PyCryptodome is used to implement AES encryption and decryption.
+This experiment demonstrates secure client-to-server file transfer.
+
+AES FILE TRANSFER - CLIENT TO SERVER
+
+Information Assurance and Security - ALM-2
+
+Name: B.V.LAXMANA
+Roll Number: 2420090064
+Section: 11
+
+This is a human-readable plaintext file for the AES file transfer assignment.
+The client encrypts this file using AES-256-CBC and sends the ciphertext to the server.
+The server receives the encrypted data, decrypts it using the same AES key, and displays
+both the ciphertext and the recovered plaintext.
+
+PyCryptodome is used to implement AES encryption and decryption.
+This experiment demonstrates secure client-to-server file transfer.
+
+AES FILE TRANSFER - CLIENT TO SERVER
+
+Information Assurance and Security - ALM-2
+
+Name: B.V.LAXMANA
+Roll Number: 2420090064
+Section: 11
+
+This is a human-readable plaintext file for the AES file transfer assignment.
+The client encrypts this file using AES-256-CBC and sends the ciphertext to the server.
+The server receives the encrypted data, decrypts it using the same AES key, and displays
+both the ciphertext and the recovered plaintext.
+
+PyCryptodome is used to implement AES encryption and decryption.
+This experiment demonstrates secure client-to-server file transfer.
+
+AES FILE TRANSFER - CLIENT TO SERVER
+
+Information Assurance and Security - ALM-2
+
+Name: B.V.LAXMANA
+Roll Number: 2420090064
+Section: 11
+
+This is a human-readable plaintext file for the AES file transfer assignment.
+The client encrypts this file using AES-256-CBC and sends the ciphertext to the server.
+The server receives the encrypted data, decrypts it using the same AES key, and displays
+both the ciphertext and the recovered plaintext.
+
+PyCryptodome is used to implement AES encryption and decryption.
+This experiment demonstrates secure client-to-server file transfer.
+
+AES FILE TRANSFER - CLIENT TO SERVER
+
+Information Assurance and Security - ALM-2
+
+Name: B.V.LAXMANA
+Roll Number: 2420090064
+Section: 11
+
+This is a human-readable plaintext file for the AES file transfer assignment.
+The client encrypts this file using AES-256-CBC and sends the ciphertext to the server.
+The server receives the encrypted data, decrypts it using the same AES key, and displays
+both the ciphertext and the recovered plaintext.
+
+PyCryptodome is used to implement AES encryption and decryption.
+This experiment demonstrates secure client-to-server file transfer.
+
+AES FILE TRANSFER - CLIENT TO SERVER
+
+Information Assurance and Security - ALM-2
+
+Name: B.V.LAXMANA
+Roll Number: 2420090064
+Section: 11
+
+This is a human-readable plaintext file for the AES file transfer assignment.
+The client encrypts this file using AES-256-CBC and sends the ciphertext to the server.
+The server receives the encrypted data, decrypts it using the same AES key, and displays
+both the ciphertext and the recovered plaintext.
+
+PyCryptodome is used to implement AES encryption and decryption.
+This experiment demonstrates secure client-to-server file transfer.
+
+AES FILE TRANSFER - CLIENT TO SERVER
+
+Information Assurance and Security - ALM-2
+
+Name: B.V.LAXMANA
+Roll Number: 2420090064
+Section: 11
+
+This is a human-readable plaintext file for the AES file transfer assignment.
+The client encrypts this file using AES-256-CBC and sends the ciphertext to the server.
+The server receives the encrypted data, decrypts it using the same AES key, and displays
+both the ciphertext and the recovered plaintext.
+
+PyCryptodome is used to implement AES encryption and decryption.
+This experiment demonstrates secure client-to-server file transfer.
+
+AES FILE TRANSFER - CLIENT TO SERVER
+
+Information Assurance and Security - ALM-2
+
+Name: B.V.LAXMANA
+Roll Number: 2420090064
+Section: 11
+
+This is a human-readable plaintext file for the AES file transfer assignment.
+The client encrypts this file using AES-256-CBC and sends the ciphertext to the server.
+The server receives the encrypted data, decrypts it using the same AES key, and displays
+both the ciphertext and the recovered plaintext.
+
+PyCryptodome is used to implement AES encryption and decryption.
+This experiment demonstrates secure client-to-server file transfer.
+
+AES FILE TRANSFER - CLIENT TO SERVER
+
+Information Assurance and Security - ALM-2
+
+Name: B.V.LAXMANA
+Roll Number: 2420090064
+Section: 11
+
+This is a human-readable plaintext file for the AES file transfer assignment.
+The client encrypts this file using AES-256-CBC and sends the ciphertext to the server.
+The server receives the encrypted data, decrypts it using the same AES key, and displays
+both the ciphertext and the recovered plaintext.
+
+PyCryptodome is used to implement AES encryption and decryption.
+This experiment demonstrates secure client-to-server file transfer.
+
+AES FILE TRANSFER - CLIENT TO SERVER
+
+Information Assurance and Security - ALM-2
+
+Name: B.V.LAXMANA
+Roll Number: 2420090064
+Section: 11
+
+This is a human-readable plaintext file for the AES file transfer assignment.
+The client encrypts this file using AES-256-CBC and sends the ciphertext to the server.
+The server receives the encrypted data, decrypts it using the same AES key, and displays
+both the ciphertext and the recovered plaintext.
+
+PyCryptodome is used to implement AES encryption and decryption.
+This experiment demonstrates secure client-to-server file transfer.
+
+AES FILE TRANSFER - CLIENT TO SERVER
+
+Information Assurance and Security - ALM-2
+
+Name: B.V.LAXMANA
+Roll Number: 2420090064
+Section: 11
+
+This is a human-readable plaintext file for the AES file transfer assignment.
+The client encrypts this file using AES-256-CBC and sends the ciphertext to the server.
+The server receives the encrypted data, decrypts it using the same AES key, and displays
+both the ciphertext and the recovered plaintext.
+
+PyCryptodome is used to implement AES encryption and decryption.
+This experiment demonstrates secure client-to-server file transfer.
+
+AES FILE TRANSFER - CLIENT TO SERVER
+
+Information Assurance and Security - ALM-2
+
+Name: B.V.LAXMANA
+Roll Number: 2420090064
+Section: 11
+
+This is a human-readable plaintext file for the AES file transfer assignment.
+The client encrypts this file using AES-256-CBC and sends the ciphertext to the server.
+The server receives the encrypted data, decrypts it usi

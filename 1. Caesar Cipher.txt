@@ -1,0 +1,383 @@
+1. Caesar Cipher
+Algorithm
+
+Input: Plaintext P, shift key K
+Output: Ciphertext C
+
+Start.
+Read the plaintext message P.
+Read the shift value K.
+For each character in the plaintext:
+If it is an uppercase letter, shift it by K positions.
+If it is a lowercase letter, shift it by K positions.
+Keep spaces and special characters unchanged.
+Use modulo 26 to wrap around after Z or z.
+Display the ciphertext.
+For decryption, shift each alphabetic character by -K.
+Display the decrypted plaintext.
+Stop.
+Formula
+
+Encryption:
+
+$$ C=(P+K)\mod26 $$
+
+Decryption:
+
+$$ P=(C-K)\mod26 $$
+
+Example:
+Plaintext = HELLO, Key = 3
+Ciphertext = KHOOR
+
+2. Playfair Cipher
+Algorithm
+
+Input: Plaintext P, keyword K
+Output: Ciphertext C
+
+Start.
+Read the keyword.
+Create a 5 × 5 matrix using the keyword.
+Remove duplicate letters from the keyword.
+Fill the remaining spaces with unused letters of the alphabet.
+Usually combine I and J into one cell.
+Prepare the plaintext:
+Remove spaces.
+Replace J with I.
+Divide the message into pairs of letters.
+If both letters in a pair are the same, insert X.
+If one letter remains at the end, append X.
+For every pair:
+Same row: replace each letter with the letter immediately to its right.
+Same column: replace each letter with the letter immediately below it.
+Different row and column: form a rectangle and replace each letter with the letter in the same row but the other letter's column.
+Combine all encrypted pairs.
+Display ciphertext.
+Apply the reverse rules for decryption.
+Stop.
+Example matrix for keyword MONARCHY
+M O N A R
+C H Y B D
+E F G I K
+L P Q S T
+U V W X Z
+3. Hill Cipher
+Algorithm
+
+Input: Plaintext P, key matrix K
+Output: Ciphertext C
+
+Start.
+Read the plaintext.
+Convert letters into numbers:
+A = 0
+B = 1
+C = 2
+...
+Z = 25
+Select an invertible key matrix.
+Divide the plaintext into blocks according to the matrix size.
+Convert each block into a numerical column vector.
+Multiply the key matrix by the plaintext vector.
+Apply modulo 26.
+Convert the resulting numbers back into letters.
+Display the ciphertext.
+For decryption, calculate the inverse of the key matrix modulo 26.
+Multiply the ciphertext vectors by the inverse key matrix.
+Apply modulo 26.
+Convert numbers back to letters.
+Display the plaintext.
+Stop.
+Formula
+
+Encryption:
+
+$$ C=K\times P\mod26 $$
+
+Decryption:
+
+$$ P=K^{-1}\times C\mod26 $$
+4. Vigenère Cipher
+Algorithm
+
+Input: Plaintext P, keyword K
+Output: Ciphertext C
+
+Start.
+Read the plaintext.
+Read the keyword.
+Repeat the keyword until it has the same length as the plaintext.
+Convert letters into numbers from 0 to 25.
+Add the plaintext and key values.
+Apply modulo 26.
+Convert the resulting numbers into letters.
+Display the ciphertext.
+For decryption, subtract the key value from the ciphertext value.
+Apply modulo 26.
+Convert the values into letters.
+Display the decrypted plaintext.
+Stop.
+Formula
+
+Encryption:
+
+$$ C_i=(P_i+K_i)\mod26 $$
+
+Decryption:
+
+$$ P_i=(C_i-K_i)\mod26 $$
+
+Example:
+
+Plaintext : ATTACK
+Key       : LEMONL
+Ciphertext: LXFOPV
+5. Simplified Data Encryption Standard (SDES)
+
+SDES is a small educational version of DES using a 10-bit key.
+
+Algorithm
+
+Input: 8-bit plaintext, 10-bit key
+Output: 8-bit ciphertext
+
+Key Generation
+Start.
+Take a 10-bit key.
+Apply P10 permutation.
+Divide the result into two 5-bit halves.
+Perform a left circular shift.
+Apply P8 permutation.
+Generate K1.
+Perform another left shift.
+Apply P8 permutation.
+Generate K2.
+Encryption
+Take the 8-bit plaintext.
+Apply Initial Permutation (IP).
+Divide it into left and right 4-bit halves.
+Apply the first round using K1.
+Swap the two halves.
+Apply the second round using K2.
+Apply the inverse initial permutation IP⁻¹.
+Obtain the 8-bit ciphertext.
+Stop.
+Decryption
+
+Use the same procedure but apply:
+
+K2 → K1
+
+instead of:
+
+K1 → K2
+Important SDES components
+P10
+P8
+IP
+IP⁻¹
+EP
+P4
+S-Box S0
+S-Box S1
+K1
+K2
+6. Advanced Encryption Standard (AES)
+
+AES is a symmetric block cipher.
+
+Common versions:
+
+AES	Key Size	Rounds
+AES-128	128 bits	10
+AES-192	192 bits	12
+AES-256	256 bits	14
+AES Encryption Algorithm
+Start.
+Read plaintext.
+Generate/select the AES key.
+Convert plaintext into a 128-bit block.
+Perform Key Expansion to generate round keys.
+Perform AddRoundKey.
+Perform the required number of rounds.
+
+For each normal round:
+
+1. SubBytes
+2. ShiftRows
+3. MixColumns
+4. AddRoundKey
+In the final round, perform:
+1. SubBytes
+2. ShiftRows
+3. AddRoundKey
+Output the ciphertext.
+Stop.
+AES Decryption
+
+Apply the inverse operations:
+
+InvShiftRows
+InvSubBytes
+AddRoundKey
+InvMixColumns
+
+in the appropriate reverse order.
+
+AES Structure
+Plaintext
+    ↓
+AddRoundKey
+    ↓
+SubBytes
+    ↓
+ShiftRows
+    ↓
+MixColumns
+    ↓
+AddRoundKey
+    ↓
+   ...
+    ↓
+Final Round
+    ↓
+Ciphertext
+7. Stream Cipher — RC4
+
+RC4 is a stream cipher based on a 256-byte state array.
+
+It has two major stages:
+
+1. Key Scheduling Algorithm (KSA)
+2. Pseudo-Random Generation Algorithm (PRGA)
+RC4 Encryption Algorithm
+Start.
+Read plaintext.
+Read the secret key.
+Initialize array S:
+S[0] = 0
+S[1] = 1
+...
+S[255] = 255
+Perform the Key Scheduling Algorithm (KSA).
+Use the secret key to shuffle S.
+Initialize:
+i = 0
+j = 0
+Perform PRGA.
+Generate a keystream byte.
+XOR each plaintext byte with the keystream byte.
+Generate ciphertext.
+Display ciphertext.
+For decryption, generate the same keystream.
+XOR ciphertext with the keystream.
+Recover plaintext.
+Stop.
+Formula
+$$ C=P\oplus K $$
+
+For decryption:
+
+$$ P=C\oplus K $$
+
+Note: RC4 is considered obsolete/insecure and should not be used for new real-world systems. It is mainly useful for educational implementation.
+
+8. Diffie-Hellman Key Exchange
+
+Diffie-Hellman is used to establish a shared secret key between two parties.
+
+Algorithm
+Start.
+Alice and Bob publicly agree on:
+A large prime number p.
+A generator g.
+Alice selects a private key a.
+Bob selects a private key b.
+Alice calculates:
+$$ A=g^a\mod p $$
+Bob calculates:
+$$ B=g^b\mod p $$
+Alice sends A to Bob.
+Bob sends B to Alice.
+Alice calculates the shared secret:
+$$ S=B^a\mod p $$
+Bob calculates:
+$$ S=A^b\mod p $$
+Both obtain the same shared secret:
+$$ S=g^{ab}\mod p $$
+The shared secret can then be used to derive an encryption key.
+Stop.
+Example
+p = 23
+g = 5
+
+Alice private key = 6
+Bob private key   = 15
+
+Alice public key = 5^6 mod 23
+Bob public key   = 5^15 mod 23
+
+Both calculate the same shared secret.
+9. RSA
+
+RSA is an asymmetric/public-key encryption algorithm.
+
+It uses:
+
+Public Key  → Encryption
+Private Key → Decryption
+RSA Key Generation Algorithm
+Start.
+Select two large prime numbers:
+$$ p,\ q $$
+Calculate:
+$$ n=pq $$
+Calculate Euler's totient:
+$$ \phi(n)=(p-1)(q-1) $$
+Select e such that:
+$$ 1<e<\phi(n) $$
+
+and
+
+$$ gcd(e,\phi(n))=1 $$
+Calculate the private exponent d:
+$$ d=e^{-1}\mod\phi(n) $$
+Public key:
+$$ (e,n) $$
+Private key:
+$$ (d,n) $$
+RSA Encryption
+
+For plaintext number M:
+
+$$ C=M^e\mod n $$
+Send/store ciphertext C.
+RSA Decryption
+$$ M=C^d\mod n $$
+Convert M back to the original message.
+Stop.
+RSA Flow
+             RSA
+              │
+       ┌──────┴──────┐
+       ↓             ↓
+ Public Key      Private Key
+  (e, n)           (d, n)
+       │             │
+       ↓             ↓
+ Encryption      Decryption
+       │             │
+       ↓             ↓
+ Ciphertext  →    Plaintext
+Quick Comparison
+Algorithm	Type	Main Purpose
+Caesar	Symmetric	Substitution cipher
+Playfair	Symmetric	Digraph substitution
+Hill	Symmetric	Matrix-based encryption
+Vigenère	Symmetric	Polyalphabetic substitution
+SDES	Symmetric	Educational block cipher
+AES	Symmetric	Modern block encryption
+RC4	Symmetric	Stream encryption
+Diffie-Hellman	Key exchange	Establish shared secret
+RSA	Asymmetric	Encryption / digital signatures
